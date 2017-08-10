@@ -1,0 +1,21 @@
+=========== Frame Relay ===========
+
+Avances tecnologicos.
+Mejora en los medios.
+Aplicaciones mas complejas.
+
+X.25=>OVERHEAD.
+
+ISDN(Red de Servicios Integrados).
+  Hay un canal exclusivo para control. Datos != Control.
+
+Frame Relay surge de ISDN.
+  · Arquitectura abierta
+  · Capa 2 con ruteo o capa 3 con enlace (eterna discusion).
+  · No hay control de flujo, etc.
+  · Elimina una capa.
+  · Puede incorporar QoS.
+      QoS, garantiza ciertas propiedades, velocidad etc.
+
+--Trama Frame Relay--
+Es muy sencilla
