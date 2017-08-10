@@ -18,4 +18,4 @@ Se evitaba la retransmision.
 
 --Nivel de Red--
 Interface UNI (cerrada). Hay que establecer conecciones, circuito virtual. Los circuitos tienen un identificador: ej. A--20. Identifica el circuito y a donde conecta. Los canales son conmutados en un mismo cable. En el circuito conmutado el usuario establece y finaliza la coneccion. En un circuito permanente lo establece la red.
-Es un servicio seguro, los paquetes no se pierden. Es full duplex. Existe control de congestion.:
+Es un servicio seguro, los paquetes no se pierden. Es full duplex. Existe control de congestion.
