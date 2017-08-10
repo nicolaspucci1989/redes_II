@@ -18,4 +18,13 @@ Frame Relay surge de ISDN.
       QoS, garantiza ciertas propiedades, velocidad etc.
 
 --Trama Frame Relay--
-Es muy sencilla
+Es muy sencilla.
+  · 7E, por lo tanto necesita bit stuffing.
+  · DLCI, canal logico, hasta 2¹⁰ canales.
+  · C/R command response, no se usa.
+  · DLCI las tramas llegan en orden.
+  · EXO siempre 0, longitud del canal logico.
+  · FECN congestion adelante.
+  · BECN congestion atras.
+  · DC discard candidate, candidato a descarte.
+  · CRC.
