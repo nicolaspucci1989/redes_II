@@ -28,3 +28,25 @@ Es muy sencilla.
   · BECN congestion atras.
   · DC discard candidate, candidato a descarte.
   · CRC.
+
+Por cada sesion puedo establecer 1 canal
+
+PVC, permanent virtual circuit.
+  Global => pueden ser iguales.
+  Local => tienen que ser distintos.
+  Hay tramas de conexion.
+
+SVC, switched virtual circuit.
+  No hay tramas de conexion.
+
+Multicast.
+  Un mensaje se replica a todos los integrantes del grupo multicast. Uno para todos en vez de muchos para muchos.
+
+--Canales logicos--
+  · 0, para slicitar coneccion, señalización.
+  · 1023, interface local (LMI, local managment interface).
+      Se usa para administración, control fuera de banda.
+
+--Control de congestion--
+Implícito, con FECN, BECN, DC. Cooperacion entre A y B, si B envía menos, A envía menos.
+Explícito, con canal 1023, envía mensaje al origen.
