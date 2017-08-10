@@ -30,3 +30,8 @@ Es un servicio seguro, los paquetes no se pierden. Es full duplex. Existe contro
 Cirtuito virtual permanente.
 La red administra los canales dedicados.
 Se establece un enlace entre A y un acceso con LAPB (primero el enlace fisico).
+
+Tipos de paquetes (UNI)
+Comienzo y fin de llamada (call request.. etc).
+Control (RR, RNR, REJ).
+Datos.
