@@ -1,0 +1,21 @@
+=========== X.25 ===========
+
+Usa conmutacion de paquetes. Establece circuitos virtuales.
+
+Existen dos arquitecturas
+Arquitectura cerrada, definida a nivel UNI (User Network Interface). En este tipo de arquitectura lo que ocurre dentro de la red no esta completamente definido, es decir no lo conozco.
+No especifica la interfaz Red-Red.
+Arquitectura abierta, define UNI y NNI, define todo.
+
+Posee servicions orientados a la coneccion. Comprende las 3 primeras capas del modelo OSI.
+Network------PLP
+Data Link----LAPB
+Physical-----x.21
+
+Obsoleto por la cantidad de controles. Hay ventana a nivel red y enlace. Hay mas overhead.
+Estos controles eran necesarios por los medios poco confiables existentes en ese momento.
+Se evitaba la retransmision.
+
+--Nivel de Red--
+Interface UNI (cerrada). Hay que establecer conecciones, circuito virtual. Los circuitos tienen un identificador: ej. A--20. Identifica el circuito y a donde conecta. Los canales son conmutados en un mismo cable. En el circuito conmutado el usuario establece y finaliza la coneccion. En un circuito permanente lo establece la red.
+Es un servicio seguro, los paquetes no se pierden. Es full duplex. Existe control de congestion.:
