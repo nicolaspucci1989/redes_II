@@ -35,3 +35,10 @@ Tipos de paquetes (UNI)
 Comienzo y fin de llamada (call request.. etc).
 Control (RR, RNR, REJ).
 Datos.
+
+--Call request--
+Envio informacion a la red
+  1- Yo guardo la informacion.
+  2- La red guarda la informacion. Si no llega, la red reenvia.
+
+
