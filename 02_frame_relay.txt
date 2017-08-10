@@ -50,3 +50,15 @@ Multicast.
 --Control de congestion--
 Implícito, con FECN, BECN, DC. Cooperacion entre A y B, si B envía menos, A envía menos.
 Explícito, con canal 1023, envía mensaje al origen.
+
+--Acuerdo de contrato QoS--
+Parámetros
+  · CIR, velocidad garantizada.
+  · BC, Burst Commited Size, es el volumen de datos garantizados.
+  · BE, Excess Burst Size, volumen de datos en exceso.
+Siempre transmito con la misma pendiente, CIR velocidad de transmision.
+BE => candidato a descarte, se marca en el acceso a la red.
+
+--LMI--
+  · Canal 1023, es un subprotocolo.
+  · Mensaje keep alive, mantiene la integridad del enlace.º
