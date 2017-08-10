@@ -61,4 +61,4 @@ BE => candidato a descarte, se marca en el acceso a la red.
 
 --LMI--
   · Canal 1023, es un subprotocolo.
-  · Mensaje keep alive, mantiene la integridad del enlace.º
+  · Mensaje keep alive, mantiene la integridad del enlace.
