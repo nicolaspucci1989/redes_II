@@ -41,4 +41,6 @@ Envio informacion a la red
   1- Yo guardo la informacion.
   2- La red guarda la informacion. Si no llega, la red reenvia.
 
-
+LGCN grupo de canales logicos. La idea era usar muchos canales logicos, no se uso (si en frame relay).
+LCN numero de canal logico.
+Las direcciones estan concatenadas, se agrega padding si es necesario. Tienen longitud variable. Son decimales de 2 hasta 14 digitos. Cada dgto se codifica en BCD.
