@@ -11,7 +11,7 @@ ISDN(Red de Servicios Integrados).
 
 Frame Relay surge de ISDN.
   · Arquitectura abierta
-  · Capa 2 con ruteo o capa 3 con enlace (eterna discusion).
+  · Capa 2 con ruteo o capa 3 con enlace (discusion eterna).
   · No hay control de flujo, etc.
   · Elimina una capa.
   · Puede incorporar QoS.
