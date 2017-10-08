@@ -61,7 +61,7 @@ Control de congestión. Uno o varios de los nodos intermedios de la red recibe m
 En Frame Relay utilizan paquetes FECN y BECN prar el control de congestion. Avisan a los transmisores o a los receptores de la existencia de congestión en la red, pero estos no están obligados a tomar acción.
 __FECN__. La red envía este paquete a los receptores en caso de congestión. Los receptores pueden ignorar este paquete. Si los receptores envían menos también lo harán los transmisores.
 __BECN__. Enviado por la red a los transmisores. También es posible ignorar este paquete. 
-En caso de que la red necesite descartar tramas, descartar aquellas que tiene el bit DE (Discard Eligibility)
+En caso de que la red necesite descartar tramas, se descartan aquellas que tiene el bit DE encendido (Discard Eligibility)
 
 ### ¿Qué se entiende por calidad de servicio? ¿Cómo procede frame relay?
 QoS. Servicio preferencial a las aplicaciones que los necesiten, asegurandoles un ancho de banda suficiente. Cierto tipo de tráfico necesita tratamiento preferencial.
