@@ -51,7 +51,7 @@ En x.25 existen dos ventanas, a nivel de enlace y otra a nivel de red.
 # Frame relay #
 
 ### Si pensamos en Frame relay como la evolución de X25, ¿Qué progresos originaron tal evolución?
-Los avances tecnológicos a nivel físico. Aplicaciones más complejas y más demandantes. El tráfico se vuelve más diverso. Necesidad de mayor ancho de banda, la cantidad de controles en X.25 generan un gran overhead. Estos controles ya no son necesarios, los medios son más confiables.
+Los avances tecnológicos a nivel físico, medios mas confiables. Aplicaciones más complejas y más demandantes. El tráfico se vuelve más diverso. Necesidad de mayor ancho de banda, la cantidad de controles en X.25 generan un gran overhead. Estos controles ya no son necesarios debido a la existencia de medios mas confiables.
 
 ### ¿Tiene Frame relay control de flujo? ¿Qué logra de esa forma?
 No tiene control de flujo. Evitar el control, si es necesario reenvío.
