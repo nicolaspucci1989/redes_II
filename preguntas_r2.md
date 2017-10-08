@@ -43,7 +43,10 @@ Cuando la red está congestionada se elimina la sesión, enviando un reset por e
 Ventana deslizante: A y B negocian el tamaño W de la ventan de transmisión. B puede aceptar W tramas y A puede enviar W tramas sin esperar un ACK. El ACK incluye el número de secuencia para tener un registro de las tramas enviadas. También es posible validar múltiples tramas con un solo ACK.
 Ventana selectiva: las únicas tramas retransmitidas son aquellas que recibieron un ACK negativo. El transmisor debe mantener buffers más grandes y una lógica más compleja para poder reinsertar una trama en la secuencia correcta.
 
+En x.25 existen dos ventanas, a nivel de enlace y otra a nivel de red.
+
 ------------------------------------------------------------------------------------------------------
+
 
 # Frame relay #
 
