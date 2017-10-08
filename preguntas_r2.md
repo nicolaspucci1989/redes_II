@@ -161,8 +161,11 @@ Cada Sistema Autónomo tiene un número asociado el cual es usado como un identi
 Con el objetivo de disminuir la complejidad de las tablas rutas globales, un nuevo __Número__ de Sistema Autónomo (ASN), debe ser asignado solamente en el caso en que una nueva política de ruteo es necesaria.
 Compartir un mismo ASN entre un grupo de redes que no están bajo de la misma gestión va a requerir una __coordinación__ adicional entre los administradores de las redes y en algunos casos, va a requerir algún nivel de rediseño de la red.
 
-### ¿Cómo es un SA Multihome non transit?        
+### ¿Cómo es un SA Multihome non transit?
 Un sistema autónomo conectado a dos ISP. No es un sistema de paso. No permite tráfico
+
+Son organizaciones que utilizan los servicios de ISPs pero que no pasan ni rutas ni tráfico de un ISP a otro. Se los descarta si no se los reconoce. Los atributos opcionales reconocidos se propagan a los vecinos de acuerdo con su contenido. Son Multi_Exit_Disc (discrimina entre multiples salidas a un SA). Esto es útil cuando un cliente está conectado a dos redes de ISP y desea que los clientes de cada ISP utilicen sus propias conexiones para llegar a él. Los dos ISP utilizan
+una política de no-tránsito, mientras que proporcionana una política de tránsito para todos sus clientes. Todos los clientes pueden comunicarse netre si, pero los ISP no pueden comunicarse entre sí a través del sistema multi home non transit.
 
 ### ¿Cómo es un SA Multihome transit?
 Un SA conectado  a otros dos SA. Permite el tráfico.
