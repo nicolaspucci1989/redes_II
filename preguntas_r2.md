@@ -170,6 +170,8 @@ una política de no-tránsito, mientras que proporcionana una política de trán
 ### ¿Cómo es un SA Multihome transit?
 Un SA conectado  a otros dos SA. Permite el tráfico.
 
+En este tipo de sistemas el tráfico que se origina fuera de su sistema autónomo, y está destinado a otr red fuera de su sistema autónomo, el tráfico fluye a traves del sistema. 
+
 ### ¿Con BGP, cuantas tablas de enrutamiento se generan para manejar el Forwarding?
 Dos, tabla BGP y tabla de ruteo IP.
 
