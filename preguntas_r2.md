@@ -54,7 +54,7 @@ En x.25 existen dos ventanas, a nivel de enlace y otra a nivel de red.
 Los avances tecnológicos a nivel físico, medios mas confiables. Aplicaciones más complejas y más demandantes. El tráfico se vuelve más diverso. Necesidad de mayor ancho de banda, la cantidad de controles en X.25 generan un gran overhead. Estos controles ya no son necesarios debido a la existencia de medios mas confiables.
 
 ### ¿Tiene Frame relay control de flujo? ¿Qué logra de esa forma?
-No tiene control de flujo. Evitar el control, si es necesario reenvío.
+No tiene control de flujo, esto hace posible el envio de datos a ráfaga. Se evitan los controles, si es necesario se retransmite.
 
 ### ¿Qué entiende por congestión? ¿Cómo se realiza el control de congestión en Frame Relay? 
 Control de congestión. Uno de los nodos intermedios de la red recibe más paquetes de los que puede procesar. Los paquetes son descartados.
