@@ -142,7 +142,7 @@ http://robertoares.com.ar/wp-content/uploads/2010/06/Seccion-4.pdf
 ### ¿Qué es un anillo óptico bidireccional?
 Se divide la capacidad de la fibra en partes iguales, se envía tráfico principal y de protección. La transmisión entre nodos se realiza usando la ruta más corta y con tráfico normal. Cuando hay una falla en la red se puentean los tráficos.
 
-Consiste en dos anillos cada uno de ellos formado por 2 fibras. Las señas de cada uno de ellos viajan en sentido contrario. Al mismo tiempo la capacidad de cada anillo para transportar el tráfico de la red y la otra mitad se reserva como protección .Cada fibra divide su capacidad en partes iguales y la dedica a llevar a llevar tráfico principal y de protección. La transmisión entre 2 nodos se realiza siempre sobre la ruta más corta utilizando la parte de tráfico normal. La capacidad de protección puede utilizarse para transportar tráfico extra de baja prioridad.
+Consiste en dos anillos, cada uno de ellos formado por __2 fibras__. Las señales de cada uno de ellos viajan en __sentido contrario__. Al mismo tiempo la capacidad de cada anillo se divide en __partes iguales__ para transportar el __tráfico__ de la red y la otra se reserva como __protección__ .Cada fibra divide su capacidad en partes iguales y la dedica a llevar a llevar tráfico principal y de protección. La transmisión entre 2 nodos se realiza siempre sobre la ruta más corta utilizando la parte de tráfico normal. La capacidad de protección puede utilizarse para transportar tráfico extra de baja prioridad.
 Diferencie SONET de SDH
 
 
