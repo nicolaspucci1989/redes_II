@@ -58,9 +58,9 @@ No tiene control de flujo, esto hace posible el envio de datos a ráfaga. Se evi
 
 ### ¿Qué entiende por congestión? ¿Cómo se realiza el control de congestión en Frame Relay? 
 Control de congestión. Uno o varios de los nodos intermedios de la red recibe más paquetes de los que puede procesar. Los paquetes que no pueden ser procesados debido a que los buffers estan llenos son descartados.
-Si. Se utilizan paquetes FECN y BECN. Avisan a los transmisores o a los receptores de la existencia de congestión en la red, pero estos no están obligados a tomar acción.
-FECN. La red envía este paquete a los receptores en caso de congestión. Los receptores pueden ignorar este paquete. Si los receptores envían menos también lo harán los transmisores.
-BECN. Enviado por la red a los transmisores. También es posible ignorar este paquete. 
+En Frame Relay utilizan paquetes FECN y BECN prar el control de congestion. Avisan a los transmisores o a los receptores de la existencia de congestión en la red, pero estos no están obligados a tomar acción.
+__FECN__. La red envía este paquete a los receptores en caso de congestión. Los receptores pueden ignorar este paquete. Si los receptores envían menos también lo harán los transmisores.
+__BECN__. Enviado por la red a los transmisores. También es posible ignorar este paquete. 
 En caso de que la red necesite descartar tramas, descartar aquellas que tiene el bit DE (Discard Eligibility)
 
 ### ¿Qué se entiende por calidad de servicio? ¿Cómo procede frame relay?
