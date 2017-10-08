@@ -158,8 +158,8 @@ Un sistema autónomo es un conjunto de redes bajo una o más administraciones qu
 Cada Sistema Autónomo tiene un número asociado el cual es usado como un identificador para el Sistema Autónomo en el intercambio de información del ruteo externo. Los protocolos de ruteo externos tales como BGP son usados para intercambiar información de ruteo entre Sistemas Autónomos. El sistema autònomo debe garantizar que las rutas internas permanezcan persistentes y alcanzables.
 
 ### ¿Qué complicaciones añade la existencia de los sistemas autónomos al ruteo?
-Con el objetivo de disminuir la complejidad de las tablas rutas globales, un nuevo Número de Sistema Autónomo (ASN), debe ser asignado solamente en el caso en que una nueva política de ruteo es necesaria.
-Compartir un mismo ASN entre un grupo de redes que no están bajo de la misma gestión va a requerir una coordinación adicional entre los administradores de las redes y en algunos casos, va a requerir algún nivel de rediseño de la red.
+Con el objetivo de disminuir la complejidad de las tablas rutas globales, un nuevo __Número__ de Sistema Autónomo (ASN), debe ser asignado solamente en el caso en que una nueva política de ruteo es necesaria.
+Compartir un mismo ASN entre un grupo de redes que no están bajo de la misma gestión va a requerir una __coordinación__ adicional entre los administradores de las redes y en algunos casos, va a requerir algún nivel de rediseño de la red.
 
 ### ¿Cómo es un SA Multihome non transit?        
 Un sistema autónomo conectado a dos ISP. No es un sistema de paso. No permite tráfico
