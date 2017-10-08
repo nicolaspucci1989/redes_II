@@ -64,7 +64,7 @@ __BECN__. Enviado por la red a los transmisores. También es posible ignorar est
 En caso de que la red necesite descartar tramas, se descartan aquellas que tiene el bit DE encendido (Discard Eligibility)
 
 ### ¿Qué se entiende por calidad de servicio? ¿Cómo procede frame relay?
-QoS. Servicio preferencial a las aplicaciones que los necesiten, asegurandoles un ancho de banda suficiente. Cierto tipo de tráfico necesita tratamiento preferencial.
+QoS. Servicio preferencial a las aplicaciones que los necesiten, asegurandoles un ancho de banda suficiente. Cierto tipo de tráfico necesita tratamiento preferencial. Frame Relay poss un QoS muy elemental.
 Hay una ráfaga garantizada CIR que es la velocidad mínima. Frame Relay garantiza un throughput mínimo. 
 BC. Volumen de tráfico alcanzable transmitiendo a la velocidad del CIR.
 Una vez alcanzado el BC puedo seguir transmitiendo pero la red no lo garantiza. 
