@@ -21,16 +21,17 @@ Desventajas de circuitos virtuales vs datagramas.
 
 ### ¿Cómo realiza el usuario la conexión en circuitos virtuales conmutados?
 Call setup, data transfer, idle y call termination.
+
 En X.25.
-Call Request: paquete enviado a la red para indicarle que se desea comunicar con otra estación. 
+* __Call Request__: paquete enviado a la red para indicarle que se desea comunicar con otra estación. 
 Incoming call: paquete que le envia la red a la estación destino. Indica que otra estación desea comunicarse.
-Call connect: paquete que la estación destino le envía a la red si acepta la comunicación con el origen.
-Clear request: paquete enviado para finalizar la conexión.  Transporta la dirección.
+* __Call Connect__: paquete que la estación destino le envía a la red si acepta la comunicación con el origen.
+* __Clear Request__: paquete enviado para finalizar la conexión.  Transporta la dirección.
 
 ### ¿Qué tipo de paquetes intercambia X25 (nivel de capa de red)?. Indique la utilidad de cada uno.
-Paquetes de conexión. Sirven para establecer la comunicación entre dos estaciones.
-Paquetes de control. Control de flujo (RNR)
-Paquetes de datos.
+Paquetes de __conexión__. Sirven para establecer la comunicación entre dos estaciones.
+Paquetes de __control__. Control de flujo (RNR)
+Paquetes de __datos__.
 
 ### ¿Cómo se determinan las direcciones en X25?
 Se representan en BCD. Puede ser par o impar, se rellena con ceros. En números decimales van de 2 a 14, concatenadas sin separador. Como las direcciones son de longitud variable, antes de esta se indica la longitud con 4 bits.
