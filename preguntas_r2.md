@@ -65,10 +65,10 @@ En caso de que la red necesite descartar tramas, se descartan aquellas que tiene
 
 ### ¿Qué se entiende por calidad de servicio? ¿Cómo procede frame relay?
 QoS. Servicio preferencial a las aplicaciones que los necesiten, asegurandoles un ancho de banda suficiente. Cierto tipo de tráfico necesita tratamiento preferencial. Frame Relay poss un QoS muy elemental.
-Hay una ráfaga garantizada CIR que es la velocidad mínima. Frame Relay garantiza un throughput mínimo. 
+Hay una ráfaga garantizada __CIR__ que es la velocidad mínima. Frame Relay garantiza un throughput mínimo. 
 BC. Volumen de tráfico alcanzable transmitiendo a la velocidad del CIR.
-Una vez alcanzado el BC puedo seguir transmitiendo pero la red no lo garantiza. 
-BE. Volumen de adicional. Se envían con el bit DE en 1. Son descartadas si es necesario.
+Una vez alcanzado el __BC__ puedo seguir transmitiendo pero la red no lo garantiza. 
+__BE__. Volumen de adicional. Se envían con el bit DE en 1. Son descartadas si es necesario.
 Si sobrepaso el BE se descartan las tramas
 
 ### ¿Qué parámetros tiene en cuenta la calidad de servicio de frame relay?
@@ -129,9 +129,9 @@ http://robertoares.com.ar/wp-content/uploads/2010/06/Seccion-4.pdf
 
 ### ¿Qué diferencia hay entre PDH y SDH?
 * PDH tiene una multiplexación asíncrona en una red plesíncrona, mientras que SDH tiene multiplexación síncrona en una red síncrona.
-* En PDH la estructura de la trama es distinta en cada orden jerárquico. En SDH existe una única estructura de la trama
+* En PDH la estructura de la trama es distinta en cada orden jerárquico. En SDH existe una única estructura de la trama.
 * En PDH el intercalado es de bit, en SDH el intercalado es de bytes.
-* SDH permite la multiplexación de canales sincrónicos y asincrónicos . Se conoce la posición de cada tributario dentro de la trama indicada mediante los punteros.
+* SDH permite la multiplexación de canales sincrónicos y asincrónicos. Se conoce la posición de cada tributario dentro de la trama indicada mediante los punteros.
         
 ### ¿Cuántas tramas E1 se pueden transportar en STM-1 de SDH
 
